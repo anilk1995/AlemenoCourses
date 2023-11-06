@@ -1,0 +1,779 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React ",
+      "instructor": "Anil Kumar Jatav",
+      "description": "Learn the basics of React development and build your first Web app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "react.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "A Laptop",
+        "Internet Connection"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React",
+          "content": "Overview of React, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced Python Programming",
+      "instructor": "Sarah Miller",
+      "description": "Master advanced Python concepts and coding techniques.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "python.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "In-Person",
+      "prerequisites": [
+        "Intermediate Python knowledge",
+        "Laptop with Python installed",
+        "Understanding of data structures"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Object-Oriented Programming in Python",
+          "content": "In-depth exploration of classes and objects."
+        },
+        {
+          "week": 2,
+          "topic": "Decorators and Generators",
+          "content": "Understanding decorators and creating Python generators."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        },
+        {
+          "id": 104,
+          "name": "Diana Lee",
+          "email": "diana@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Web Development Bootcamp",
+      "instructor": "John Smith",
+      "description": "Become a full-stack web developer in 12 weeks.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "webdev.jpg",
+      "duration": "12 weeks",
+      "schedule": "Saturdays and Sundays, 10:00 AM - 4:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic HTML and CSS knowledge",
+        "A computer with a code editor",
+        "Passion for web development"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Fundamentals",
+          "content": "Creating web pages with HTML and styling with CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript and interactive web development."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Eleanor White",
+          "email": "eleanor@example.com"
+        },
+        {
+          "id": 106,
+          "name": "Finn Harris",
+          "email": "finn@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Data Science Fundamentals",
+      "instructor": "Maria Rodriguez",
+      "description": "Learn the basics of data science and analysis.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "data.jpg",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+      "location": "In-Person",
+      "prerequisites": [
+        "Basic knowledge of statistics",
+        "A laptop with data analysis software",
+        "Curiosity for data"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Understanding the data science process and tools."
+        },
+        {
+          "week": 2,
+          "topic": "Data Cleaning and Visualization",
+          "content": "Preparing data for analysis and creating visualizations."
+        }
+      ],
+      "students": [
+        {
+          "id": 107,
+          "name": "Grace Taylor",
+          "email": "grace@example.com"
+        },
+        {
+          "id": 108,
+          "name": "Henry Mitchell",
+          "email": "henry@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mobile App Development with Flutter",
+      "instructor": "Michael Davis",
+      "description": "Build cross-platform mobile apps using Flutter.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "flutter.jpg",
+      "duration": "9 weeks",
+      "schedule": "Wednesdays and Fridays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "A computer with Flutter installed",
+        "Interest in mobile app development"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Flutter",
+          "content": "Overview of Flutter and setting up the development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building UI with Flutter",
+          "content": "Creating user interfaces with Flutter widgets."
+        }
+      ],
+      "students": [
+        {
+          "id": 109,
+          "name": "Isabella Turner",
+          "email": "isabella@example.com"
+        },
+        {
+          "id": 110,
+          "name": "Jack Anderson",
+          "email": "jack@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Machine Learning Basics",
+      "instructor": "David Brown",
+      "description": "Introduction to machine learning concepts and algorithms.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "ml.jpg",
+      "duration": "7 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "In-Person",
+      "prerequisites": [
+        "Basic programming skills",
+        "Mathematics knowledge",
+        "Curiosity about machine learning"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of machine learning and types of algorithms."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Understanding and implementing supervised learning algorithms."
+        }
+      ],
+      "students": [
+        {
+          "id": 111,
+          "name": "Katherine Hall",
+          "email": "katherine@example.com"
+        },
+        {
+          "id": 112,
+          "name": "Liam Martinez",
+          "email": "liam@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Digital Marketing Masterclass",
+      "instructor": "Sophia Clark",
+      "description": "Learn the ins and outs of digital marketing strategies.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "marketing.jpg",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic knowledge of marketing principles",
+        "A computer with internet access",
+        "Interest in digital marketing"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Digital Marketing",
+          "content": "Understanding the digital marketing landscape."
+        },
+        {
+          "week": 2,
+          "topic": "Social Media Marketing",
+          "content": "Strategies for marketing on social media platforms."
+        }
+      ],
+      "students": [
+        {
+          "id": 113,
+          "name": "Mason Green",
+          "email": "mason@example.com"
+        },
+        {
+          "id": 114,
+          "name": "Nora Wilson",
+          "email": "nora@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Cybersecurity Fundamentals",
+      "instructor": "Daniel Taylor",
+      "description": "Learn the basics of cybersecurity and protect your digital assets.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "cybersecurity.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "In-Person",
+      "prerequisites": [
+        "Basic knowledge of computer systems",
+        "Interest in cybersecurity",
+        "A laptop for practical exercises"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cybersecurity",
+          "content": "Overview of cybersecurity principles and concepts."
+        },
+        {
+          "week": 2,
+          "topic": "Network Security",
+          "content": "Understanding and implementing network security measures."
+        }
+      ],
+      "students": [
+        {
+          "id": 115,
+          "name": "Oliver Brown",
+          "email": "oliver@example.com"
+        },
+        {
+          "id": 116,
+          "name": "Penelope Davis",
+          "email": "penelope@example.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Artificial Intelligence Workshop",
+      "instructor": "Emily Wilson",
+      "description": "Explore the world of artificial intelligence and its applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "ai.jpg",
+      "duration": "5 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "Interest in artificial intelligence",
+        "A computer for coding exercises"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to AI",
+          "content": "Overview of AI, its history, and its subfields."
+        },
+        {
+          "week": 2,
+          "topic": "Machine Learning in AI",
+          "content": "Understanding machine learning and its role in AI."
+        }
+      ],
+      "students": [
+        {
+          "id": 117,
+          "name": "Quinn Johnson",
+          "email": "quinn@example.com"
+        },
+        {
+          "id": 118,
+          "name": "Ryan Evans",
+          "email": "ryan@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Graphic Design Fundamentals",
+      "instructor": "Ava Smith",
+      "description": "Learn the basics of graphic design and create stunning visuals.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "design.jpg",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 7:30 PM - 9:30 PM",
+      "location": "In-Person",
+      "prerequisites": [
+        "Interest in graphic design",
+        "A computer with design software",
+        "Creativity and passion for visual arts"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Graphic Design",
+          "content": "Overview of graphic design principles and tools."
+        },
+        {
+          "week": 2,
+          "topic": "Typography and Layout",
+          "content": "Understanding typography and creating effective layouts."
+        }
+      ],
+      "students": [
+        {
+          "id": 119,
+          "name": "Sofia Davis",
+          "email": "sofia@example.com"
+        },
+        {
+          "id": 120,
+          "name": "Theodore Wilson",
+          "email": "theodore@example.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Data Analysis with Python",
+      "instructor": "Ella Anderson",
+      "description": "Learn data analysis using Python and popular libraries.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "dataanalysis.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:30 PM - 9:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Python knowledge",
+        "A computer with data analysis software",
+        "Interest in data analysis"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Analysis",
+          "content": "Overview of data analysis process and tools."
+        },
+        {
+          "week": 2,
+          "topic": "Data Cleaning and Visualization",
+          "content": "Preparing and visualizing data for analysis."
+        }
+      ],
+      "students": [
+        {
+          "id": 121,
+          "name": "Uma Johnson",
+          "email": "uma@example.com"
+        },
+        {
+          "id": 122,
+          "name": "Victor Smith",
+          "email": "victor@example.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Advanced Data Science with Python",
+      "instructor": "Dr. Sarah Mitchell",
+      "description": "Take your data science skills to the next level with Python.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "datascience.jpg",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "University Campus",
+      "prerequisites": [
+        "Basic Python knowledge",
+        "Statistics background",
+        "Access to Jupyter Notebook"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Understanding the data science workflow."
+        },
+        {
+          "week": 2,
+          "topic": "Data Cleaning and Preprocessing",
+          "content": "Preparing data for analysis."
+        }
+      ],
+      "students": [
+        {
+          "id": 201,
+          "name": "Emily Wilson",
+          "email": "emily@example.com"
+        },
+        {
+          "id": 202,
+          "name": "David Lee",
+          "email": "david@example.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Advance  Machine Learning",
+      "instructor": "Dr. Michael Johnson",
+      "description": "Learn the fundamentals of machine learning and predictive modeling.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "ml.jpg",
+      "duration": "10 weeks",
+      "schedule": "Fridays, 5:00 PM - 7:00 PM",
+      "location": "Virtual Classroom",
+      "prerequisites": [
+        "Basic Python knowledge",
+        "Linear algebra background",
+        "Understanding of statistics"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Understanding the basics of machine learning."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Introduction to supervised learning algorithms."
+        }
+      ],
+      "students": [
+        {
+          "id": 301,
+          "name": "Sophia Brown",
+          "email": "sophia@example.com"
+        },
+        {
+          "id": 302,
+          "name": "James Davis",
+          "email": "james@example.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Web Development with HTML and CSS",
+      "instructor": "Rachel Clark",
+      "description": "Create and design interactive web pages using HTML and CSS.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "htmlcss.jpg",
+      "duration": "6 weeks",
+      "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+      "location": "Local Community Center",
+      "prerequisites": ["No prior knowledge required"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Web Development",
+          "content": "Basic concepts of web development."
+        },
+        {
+          "week": 2,
+          "topic": "HTML Fundamentals",
+          "content": "Creating web content with HTML."
+        }
+      ],
+      "students": [
+        {
+          "id": 401,
+          "name": "Liam Anderson",
+          "email": "liam@example.com"
+        },
+        {
+          "id": 402,
+          "name": "Olivia White",
+          "email": "olivia@example.com"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Digital Marketing Masterclass",
+      "instructor": "Jessica Turner",
+      "description": "Become a digital marketing expert and boost your business online.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "marketing.jpg",
+      "duration": "8 weeks",
+      "schedule": "Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic knowledge of marketing concepts"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Digital Marketing",
+          "content": "Understanding the digital marketing landscape."
+        },
+        {
+          "week": 2,
+          "topic": "Social Media Marketing",
+          "content": "Strategies for promoting businesses on social media."
+        }
+      ],
+      "students": [
+        {
+          "id": 501,
+          "name": "Mia Garcia",
+          "email": "mia@example.com"
+        },
+        {
+          "id": 502,
+          "name": "Noah Martinez",
+          "email": "noah@example.com"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Art and Creativity Workshop",
+      "instructor": "Laura Davis",
+      "description": "Unlock your creativity and explore various art forms.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "art.jpg",
+      "duration": "4 weeks",
+      "schedule": "Mondays, 2:00 PM - 4:00 PM",
+      "location": "Art Studio",
+      "prerequisites": ["No prior art experience needed"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Art",
+          "content": "Exploring the world of art."
+        },
+        {
+          "week": 2,
+          "topic": "Painting Techniques",
+          "content": "Learning different painting styles."
+        }
+      ],
+      "students": [
+        {
+          "id": 601,
+          "name": "Ava Wilson",
+          "email": "ava@example.com"
+        },
+        {
+          "id": 602,
+          "name": "Ethan Taylor",
+          "email": "ethan@example.com"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Introduction to Mobile App Design",
+      "instructor": "Maria Rodriguez",
+      "description": "Learn the principles of mobile app design and user experience.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "mobiledesign.jpg",
+      "duration": "6 weeks",
+      "schedule": "Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic design knowledge", "Access to design software"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Mobile App Design Fundamentals",
+          "content": "Introduction to design principles for mobile apps."
+        },
+        {
+          "week": 2,
+          "topic": "User Interface (UI) Design",
+          "content": "Creating user-friendly interfaces."
+        }
+      ],
+      "students": [
+        {
+          "id": 701,
+          "name": "Isabella Clark",
+          "email": "isabella@example.com"
+        },
+        {
+          "id": 702,
+          "name": "Liam Harris",
+          "email": "liam@example.com"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Yoga and Meditation Retreat",
+      "instructor": "Samantha Smith",
+      "description": "Relax, unwind, and find inner peace through yoga and meditation.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "yoga.jpg",
+      "duration": "2 weeks",
+      "schedule": "Daily, 8:00 AM - 10:00 AM",
+      "location": "Retreat Center",
+      "prerequisites": ["No prior yoga or meditation experience needed"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Yoga Basics",
+          "content": "Introduction to yoga poses and breathing techniques."
+        },
+        {
+          "week": 2,
+          "topic": "Meditation and Mindfulness",
+          "content": "Practices for inner peace and mental clarity."
+        }
+      ],
+      "students": [
+        {
+          "id": 801,
+          "name": "Sophie Anderson",
+          "email": "sophie@example.com"
+        },
+        {
+          "id": 802,
+          "name": "Liam Miller",
+          "email": "liam@example.com"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Photography Masterclass",
+      "instructor": "John Turner",
+      "description": "Master the art of photography and capture stunning images.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "photography.jpg",
+      "duration": "10 weeks",
+      "schedule": "Saturdays, 1:00 PM - 3:00 PM",
+      "location": "Photography Studio",
+      "prerequisites": [
+        "No prior photography experience needed",
+        "Access to a camera"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Photography",
+          "content": "Understanding camera settings and composition."
+        },
+        {
+          "week": 2,
+          "topic": "Portrait Photography",
+          "content": "Capturing stunning portraits."
+        }
+      ],
+      "students": [
+        {
+          "id": 901,
+          "name": "Aiden Martin",
+          "email": "aiden@example.com"
+        },
+        {
+          "id": 902,
+          "name": "Olivia Harris",
+          "email": "olivia@example.com"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Cooking and Culinary Arts",
+      "instructor": "Chef James Johnson",
+      "description": "Discover the art of cooking and culinary excellence.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "cooking.jpg",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays, 5:00 PM - 7:00 PM",
+      "location": "Culinary School",
+      "prerequisites": ["No prior cooking experience needed"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Cooking Basics",
+          "content": "Introduction to kitchen equipment and techniques."
+        },
+        {
+          "week": 2,
+          "topic": "International Cuisine",
+          "content": "Exploring world cuisines."
+        }
+      ],
+      "students": [
+        {
+          "id": 1001,
+          "name": "Emma Davis",
+          "email": "emma@example.com"
+        },
+        {
+          "id": 1002,
+          "name": "Liam Miller",
+          "email": "liam@example.com"
+        }
+      ]
+    }
+  ]
+}

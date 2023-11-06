@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --color-primary: #7380ec;
+  --color-danger: #ff7782;
+  --color-success: #41f1b6;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info: #7d8da1;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-dark-varient: #677483;
+  --color-background: #f6f6f9;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+.container {
+  height: 100vh;
+  max-width: 1366px;
+  background-color: var(--color-dark);
+  margin: auto;
+}
+
+.dashboard,
+.notEnrolled {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+.progressbarContainer {
+  max-width: 1150px;
+  margin: 50px auto;
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.progressTitle {
+  font-size: 18px;
+}
+
+.progressbar {
+  height: 25px;
+  width: 100%;
+}
+
+.enrolledCourses {
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}

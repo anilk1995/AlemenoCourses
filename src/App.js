@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Homepage from "./pages/Homepage";
+import Cart from "./pages/Cart";
+import StudentDashboard from "./pages/StudentDashboard";
+import CourseDetails from "./pages/CourseDetails";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [allCourses, setAllCourses] = useState([]);
+  useEffect(function () {
+    async function fetchCourses() {
+      const response = await fetch("http://localhost:9000/courses");
+      const data = await response.json();
+      setAllCourses(data);
+    }
+    fetchCourses();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage data={allCourses} />}></Route>
+        <Route path="cart" element={<Cart />} />
+        <Route path="dashboard" element={<StudentDashboard />} />
+        <Route path="*" element={<h1>Page Not Found</h1>} />
+        <Route path="/course" element={<CourseDetails />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
