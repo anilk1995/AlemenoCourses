@@ -7,11 +7,13 @@ function Homepage() {
   const { isLoading } = useSelector((store) => store.data);
 
   return (
-    <div className={styles.container}>
+    <>
       <Header />
-      <img src="homePageImage.jpg" alt="" className={styles.homeImage} />
-      {isLoading ? <Spinner /> : <Courses />}
-    </div>
+      <div className={styles.container}>
+        <img src="homePageImage.jpg" alt="" className={styles.homeImage} />
+        {isLoading ? <Spinner /> : <Courses />}
+      </div>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import styles from "./CourseDetails.module.css";
 import Header from "../components/Header";
 

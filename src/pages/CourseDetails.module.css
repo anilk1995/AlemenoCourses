@@ -7,7 +7,7 @@
   margin: auto;
   border: 1px solid #ccc;
   padding: 20px;
-  height: 100vh;
+  height: calc(100vh-50px);
   background-color: var(--color-dark--1);
   gap: 10px;
 }
