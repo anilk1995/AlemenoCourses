@@ -16,10 +16,11 @@
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
   max-width: 1366px;
   background-color: var(--color-dark);
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .dashboard,
@@ -51,7 +52,11 @@
   max-width: 1150px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
   flex-wrap: wrap;
+  gap: 50px;
+}
+
+.enrolledCourses:last-child {
 }

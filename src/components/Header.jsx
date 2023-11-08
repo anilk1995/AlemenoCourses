@@ -14,7 +14,7 @@ function Header() {
       <ul className={styles.credential}>
         <li>
           <Link to="/cart">
-            <Button type="primary">Cart</Button>
+            <Button type="primary">Cart </Button>
           </Link>
         </li>
         <li>

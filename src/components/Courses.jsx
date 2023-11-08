@@ -4,12 +4,17 @@ import { useSelector } from "react-redux";
 import Spinner from "./Spinner";
 
 function Courses() {
-  const { filteredData, allCourses, searchQuery } = useSelector(
+  const { filteredData, allCourses, searchQuery, error } = useSelector(
     (store) => store.data
   );
 
   return (
     <div className={styles.cardsConteainer}>
+      {error && (
+        <h1 className={styles.errorMessage}>
+          {error}: Server is not responding
+        </h1>
+      )}
       {filteredData.length === 0 &&
         searchQuery === "" &&
         allCourses.map((course) => (
@@ -21,8 +26,9 @@ function Courses() {
         ))}
       {filteredData.length === 0 && searchQuery.length !== 0 && (
         <>
-          <Spinner />
-          <h1>Course Not Found</h1>
+          <h1 className={styles.errorMessage}>
+            We don't teach this course yet{" "}
+          </h1>
         </>
       )}
     </div>

@@ -23,6 +23,16 @@ html {
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-brand--2);
+  /* outline: 1px solid slategrey; */
+  border-radius: 1em;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
 body {
   background-color: var(--color-dark--0);
   font-family: "Manrope", sans-serif;

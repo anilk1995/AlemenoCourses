@@ -4,7 +4,7 @@ import styles from "./Homepage.module.css";
 import { useSelector } from "react-redux";
 import Spinner from "../components/Spinner";
 function Homepage() {
-  const { isLoading } = useSelector((store) => store.data);
+  const { isLoading, error } = useSelector((store) => store.data);
 
   return (
     <>

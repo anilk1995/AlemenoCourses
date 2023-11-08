@@ -1,10 +1,11 @@
-const { createSlice } = require("@reduxjs/toolkit");
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   allCourses: [],
   isLoading: false,
   filteredData: [],
   searchQuery: "",
+  error: "",
 };
 
 const dataSlice = createSlice({
@@ -36,9 +37,17 @@ const dataSlice = createSlice({
     setSearchQuery(state, action) {
       state.searchQuery = action.payload;
     },
+    setError(state, action) {
+      state.error = action.payload;
+    },
   },
 });
 
 export default dataSlice.reducer;
-export const { filterData, loadingData, setSearchQuery, settingData } =
-  dataSlice.actions;
+export const {
+  filterData,
+  loadingData,
+  setSearchQuery,
+  settingData,
+  setError,
+} = dataSlice.actions;
