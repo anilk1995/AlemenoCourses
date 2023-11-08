@@ -40,13 +40,5 @@ const dataSlice = createSlice({
 });
 
 export default dataSlice.reducer;
-export const { filterData, loadingData, setSearchQuery } = dataSlice.actions;
-
-export function settingData() {
-  return async function fetchData(dispatch, getState) {
-    dispatch({ type: "allCourses/loadingData", payload: true });
-    const res = await fetch("http://localhost:9000/courses");
-    const data = await res.json();
-    dispatch({ type: "allCourses/settingData", payload: data });
-  };
-}
+export const { filterData, loadingData, setSearchQuery, settingData } =
+  dataSlice.actions;
